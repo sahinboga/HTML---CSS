@@ -1,0 +1,326 @@
+:root{
+    --cy:#bac964;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "Segoe UI", Roboto;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+#home{
+    background-image: url(image/image_1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.home-body{
+    background-color: #00000050;
+    height: inherit;
+}
+
+.cw{
+    color: white;
+}
+.cg{
+    color: #cccccc;
+}
+.cy{
+    color:var(--cy);
+}
+
+.home-list{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+
+.home-list-item{
+    padding: 40px 20px;
+    text-transform: uppercase;
+}
+
+.home-list-item a{
+    color: white;
+}
+
+.t-center{
+    text-align: center;
+}
+
+.home-title{
+    margin-top: 30vh;
+}
+
+.pt30{
+    padding: 30px 0;
+}
+.pl-item{
+    padding: 0 30px;
+}
+.pl-item a{
+    color: #cccccc;
+}
+.pl-item a:hover{
+    color: var(--cy);
+}
+
+main{
+    background-color: #222;
+    padding: 30px 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.port-body{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.port-item{
+    width: 30%;
+    padding: 50px 0;
+}
+
+.port-item img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.port-item-title{
+    font-size: 80%;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.resume{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resume-body{
+    width: 48%;
+    
+}
+.resume-body h1{
+    font-weight: lighter;
+    color: white;
+    margin: 20px 0;
+}
+.resume-item{
+    background-color: #333;
+    border-radius: 10px;
+    margin: 0 0 20px 0;
+    padding: 20px;
+}
+
+.resume-item h3{
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.resume-item p{
+    padding-bottom: 10px;
+    color: rgba(255,255,255,0.4);
+}
+#resume h2{
+    margin-top: 70px;
+}
+
+#about{
+    padding: 100px 0;
+}
+
+.about-item img{
+    max-width:  100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.about-item h2{
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.about-item>*{
+    padding: 10px 0;
+}
+
+.about-item{
+    width: 45%;
+}
+
+.about-item p{
+    color: rgba(255,255,255,0.4);
+    line-height: 30px;
+}
+
+.btn{
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn-yellow{
+    background-color: var(--cy);
+}
+.btn-yellow:hover{
+    background-color: #b2c251;
+}
+
+.btn-gray{
+    background-color: #6c757d;
+}
+.btn-gray:hover{
+    background-color: #5a6268;
+}
+
+.comment{
+    display: flex;
+    width: 48%;
+    margin: 40px 0;
+}
+.comment img{
+    display: block;
+    width: 100%;
+    height: auto;
+    flex: 0 0 10px;
+    border-radius: 50%;
+}
+
+.comment-body{
+    background-color: #333;
+    border-radius: 10px;
+    color: rgba(255,255,255,0.4);
+    margin: 0 20px;
+    padding: 20px;
+}
+
+.comment-name{
+    font-style: italic;
+    color: #666666;
+}
+
+.service-item{
+    background-color: #333;
+    width: 30%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.service-item-icon i{
+    background-color: var(--cy);
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.service-item>*{
+    margin: 20px 10px;
+}
+
+.learn, .learn i{
+    transition: 0.3s all;
+}
+.learn:hover i{
+    margin-left: 20px;
+    position: relative;
+}
+
+.blog-item{
+    background-color: #333;
+    width: 30%;
+    color: rgba(255,255,255,0.4);
+}
+.blog-item>*{
+    padding: 20px;
+}
+
+.blog-item-detay a{
+    color: rgba(255,255,255,0.4);
+    padding-left: 5px;
+}
+.blog-item a:hover{
+    color: var(--cy);
+}
+
+.contact-item{
+    width: 60%;
+}
+.contact-item-title{
+    font-weight: lighter;
+    margin: 20px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea{
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #333;
+    font-size: 20px;
+}
+
+.contact-item2{
+    width: 35%;
+    align-self: flex-start;
+}
+
+.contact-name{
+    margin: 25px 0;
+    color: rgba(255,255,255,0.4);
+}
+.contact-color{
+    color: #2c3e50;
+    margin: 5px 0;
+}
+
+footer{
+    margin: 70px 0;
+    color: rgba(255,255,255,0.4);
+    text-align: center;
+}
+
+
+
+

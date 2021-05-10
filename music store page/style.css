@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+header{
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+   
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+     height: 40px;
+    align-items: center;
+}
+
+.header-list a{
+    color: #eee;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+}
+.header-list a:hover{
+    background-color: gray;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.color-white{
+    color:white;
+}
+
+#Mytunes{
+    display: flex;
+    align-items: center;
+    background-image: url(image/showcase.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.f20{
+    font-size: 20px;
+}
+.f30{
+    font-size: 30px;
+}
+.f42{
+    font-size: 48px;
+}
+
+.M20{
+    margin: 20px;
+}
+.P20{
+    padding: 20px;
+}
+
+#Music{
+    background-color: #252529;
+}
+
+.Btn{
+    color: white;
+    padding: 16px 10px;
+    font-size: 18px;
+    border: 0;
+}
+.Btn:hover{
+    cursor: pointer;
+}
+
+.bg-red{
+    background-color: #b90415;
+}
+
+.bg-red:hover{
+    background-color: #d3071b;
+}
+
+img{
+    width: 100%;
+}
+
+.bg-blue{
+    background-color: #103063;
+}
+
+.bg-blue:hover{
+    background-color: #143f85;
+}
+
+#etrmnt{
+    display: flex;
+    align-items: center;
+    background: url(image/section-bg.jpeg) no-repeat bottom/cover;
+    height: 70vh;
+}
+
+.gift-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.gift-text a{
+    text-decoration: none;
+    color: #103063;
+}
+
+.service{
+    background-color: #252529;
+    padding: 30px 50px;
+}
+
+.service-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-body a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+.service-body li{
+    list-style: none;
+    padding: 5px;    
+}

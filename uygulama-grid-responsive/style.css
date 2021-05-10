@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+header{
+    
+    background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    border: 1px solid black;
+    color: #fff;    
+    text-align: center;
+    
+}
+
+.header-op{
+    width: 100%;
+    height: 100%;
+    background-color: #afafaf25;
+}
+
+.header-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 15vh;
+    align-items: center;
+    
+
+}
+
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.header-item h1{
+    font-size: 40px;
+}
+
+.header-item p{
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin: 20px 0;
+}
+.button{
+    text-decoration: none;
+    border: 1px solid gray;
+    color: #fff;
+    background: #333;
+    padding: 20px 20px;
+    
+}
+.button:hover{
+    color: black;
+    background: #fff;
+}
+
+#section-a{
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+section h2{
+    padding: 20px 0;
+    
+}
+
+.boxing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.box{
+    margin: 10px 20px 40px 0;
+    line-height: 1.5;
+}
+#section-b{
+    background-color: #333;
+}
+
+.service{
+    display: flex;
+}
+.service-item{
+    text-align: center;
+    background-color: #fff;
+    margin:40px 10px;
+    width: 33%;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.service-item h3{
+    padding: 40px 20px;
+    
+}
+
+.service-item p{
+    line-height: 1.5;
+    padding: 10px;
+}
+
+#section-c{
+    background-color: #fff;
+    text-align: center;
+}
+
+.sec-c h2{
+    padding: 50px 0;
+}
+
+.sec-c p{
+    padding-bottom: 50px;
+}
+
+#section-d{
+    background-color: #333;
+    display: flex;
+    width: 100%;
+    left: 0;
+}
+
+.box1{
+    text-align: center;
+    color: #fff;
+}
+
+.box1:first-child{
+    background-color: #2690d4;
+}
+
+.box1 h2{
+    padding: 50px 0;
+}
+.box1 p{
+    padding-bottom: 30px;
+}
+footer{
+    background-color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+.footer p{
+    color: #fff;
+}
+.footer a{
+    text-decoration: none;
+    color:#2690d4;
+}
+
